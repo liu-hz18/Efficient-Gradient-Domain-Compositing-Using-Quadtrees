@@ -1,0 +1,17 @@
+@inproceedings{quadtree,
+	author = {Agarwala, Aseem},
+	title = {Efficient Gradient-Domain Compositing Using Quadtrees},
+	year = {2007},
+	isbn = {9781450378369},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/1275808.1276495},
+	doi = {10.1145/1275808.1276495},
+	abstract = {We describe a hierarchical approach to improving the efficiency of gradient-domain compositing, a technique that constructs seamless composites by combining the gradients of images into a vector field that is then integrated to form a composite. While gradient-domain compositing is powerful and widely used, it suffers from poor scalability. Computing an n pixel composite requires solving a linear system with n variables; solving such a large system quickly overwhelms the main memory of a standard computer when performed for multi-megapixel composites, which are common in practice. In this paper we show how to perform gradient-domain compositing approximately by solving an O(p) linear system, where p is the total length of the seams between image regions in the composite; for typical cases, p is O(√n). We achieve this reduction by transforming the problem into a space where much of the solution is smooth, and then utilize the pattern of this smoothness to adaptively subdivide the problem domain using quadtrees. We demonstrate the merits of our approach by performing panoramic stitching and image region copy-and-paste in significantly reduced time and memory while achieving visually identical results.},
+	booktitle = {ACM SIGGRAPH 2007 Papers},
+	pages = {94–es},
+	location = {San Diego, California},
+	series = {SIGGRAPH '07}
+}
+
+
